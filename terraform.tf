@@ -9,7 +9,7 @@ terraform {
   required_version = "~> 1.8.1"
 
   backend "gcs" {
-    bucket  = "terraform-state-backend-estu"
-    prefix  = "state"
+    bucket = "terraform-state-backend-estu"
+    prefix = "state"
   }
 }
